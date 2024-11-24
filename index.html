@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe</title>
+    <script
+      src="https://kit.fontawesome.com/c9705384ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c9705384ae.js"
+      crossorigin="anonymous"
+    ></script>
+ 
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <main class="dark">
+      <div class="mainmenu">
+        <button class="dark-btn menu-top"><i class="fas fa-adjust"></i></button>
+        <h1>Tic Tac Toe <span class="mark">Advanced</span></h1>
+        <p>Configure the game</p>
+        <div class="notice">
+          <h3>Notice</h3>
+          <p>
+            As the title saying "Tic Tac Toe <b>Advanced</b>", this game is...
+            Well... Not really advanced. Original plans is to include 4
+            different difficult levels.But Only two difficulty level were
+            implemented (dummy AI and 2-players mode). Unfortunately, I am
+            working on another projects so i have not included another two
+            levels but will be included soon. Thanks for understanding.
+            <button class="btn-primary confirm">OK</button>
+          </p>
+        </div>
+        <div class="toggles">
+          <p>Select a game mode to start playing.</p>
+          <button class="btn btn-primary single">One Player Mode</button>
+          <button class="btn btn-primary multiplayer">Two Players Mode</button>
+        </div>
+        <p>Created by Naila Ameer.</p>
+      </div>
+
+      <nav class="topnav">
+        <div>
+          <button class="back"><i class="fas fa-arrow-left"></i></button>
+        </div>
+        <div>
+          <button class="dark-btn"><i class="fas fa-adjust"></i></button
+          ><button class="restart"><i class="fas fa-redo-alt"></i></button>
+        </div>
+      </nav>
+      <div class="game">
+        <div class="container">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+      </div>
+    </main>
+    <div class="result-overlay">
+      <div>
+        <h2 class="result-caption">You win!</h2>
+        <p>Would you like to play again?</p>
+      </div>
+      <div>
+        <button class="restart">Play Again</button>
+        <button class="back">Main Menu</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
